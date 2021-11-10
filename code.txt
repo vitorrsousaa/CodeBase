@@ -1,0 +1,10 @@
+*React:*
+ReactDOM.render:
+- Recebe como parametro um elemento  JSX, e um container HTML
+
+
+
+*JavaScript:*
+TimeStamp:
+- Um número que representa a data e hora atual no modelo unix
+- Math.floor(Date.now()/1000)
