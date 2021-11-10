@@ -2,6 +2,9 @@
 ReactDOM.render:
 - Recebe como parametro um elemento  JSX, e um container HTML
 
+React.Fragment:
+- Permite retornar dois elementos HTML adjacentes 
+
 
 
 *JavaScript:*
