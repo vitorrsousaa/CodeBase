@@ -15,3 +15,8 @@ TimeStamp:
 *CSS*
 Placeholder:
 - Inform the text that will appear in the box;
+
+Align itens in the center of a display:flex :
+Use this properties:
+- Align-items: center;
+
