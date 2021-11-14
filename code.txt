@@ -11,3 +11,7 @@ React.Fragment:
 TimeStamp:
 - Um número que representa a data e hora atual no modelo unix
 - Math.floor(Date.now()/1000)
+
+*CSS*
+Placeholder:
+- Inform the text that will appear in the box;
