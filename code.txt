@@ -20,3 +20,9 @@ Align itens in the center of a display:flex :
 Use this properties:
 - Align-items: center;
 
+*GIT*
+git push origin --delete nomedabranch:
+- Delete a remote branch
+
+git branch -D nome da branch:
+- Delete a local branch
