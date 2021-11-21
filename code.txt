@@ -26,3 +26,7 @@ git push origin --delete nomedabranch:
 
 git branch -D nome da branch:
 - Delete a local branch
+
+*TERMINAL*
+cd ..
+- Returning one past
