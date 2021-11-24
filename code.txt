@@ -22,10 +22,23 @@ Use this properties:
 
 *GIT*
 git push origin --delete nomedabranch:
-- Delete a remote branch
+- Delete a remote branch;
 
 git branch -D nome da branch:
-- Delete a local branch
+- Delete a local branch;
+
+git init:
+- Start git in the terminal;
+
+git add .
+- Commit the file you staged in to your local repository;
+
+git commit -m "text" 
+- Commit the files;
+
+git remote add origin https://github.com/vitorrsousaa/ClothingStore.git
+git branch -M main
+git push -u origin main
 
 *TERMINAL*
 cd ..
