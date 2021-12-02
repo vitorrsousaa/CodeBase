@@ -17,6 +17,14 @@ useContext():
 - Passamos como parametro o nome do nosso contexto;
 - Atribui o valor do contexto para uma variável existente, possibilitando utilizar o que foi passado no contexto;
 
+Acrescentar um valor em um estado do React:
+- Para acrescentar um valor em um estado que já possui valores, precisamos pegar os valores antigos, acrescentar novamente, e acrescentar o novo;
+setTransactions([
+  ...transactions,
+  transaction,
+])
+- Estamos acrescentando uma transaction, junto com a lista de transactions existente
+
 
 
 *JavaScript:*
