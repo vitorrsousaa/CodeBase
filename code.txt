@@ -1,9 +1,21 @@
 *React:*
 ReactDOM.render:
-- Recebe como parametro um elemento  JSX, e um container HTML
+- Recebe como parametro um elemento  JSX, e um container HTML;
 
-React.Fragment:
-- Permite retornar dois elementos HTML adjacentes 
+React.Fragment (<> </>):
+- Permite retornar dois elementos HTML adjacentes;
+
+React.createContext( ):
+- Permite criar um contexto;
+- Passamos como parametro o valor default para aquele contexto;
+
+Context.Provider( value={}):
+- O provider ficar por volta dos elementos que vão utilizar aquele contexto;
+- Deve receber a propriedade value, que vai conter todos os valores atualizados que queremos permitir que os elementos possam utilizar do contexto;
+
+useContext():
+- Passamos como parametro o nome do nosso contexto;
+- Atribui o valor do contexto para uma variável existente, possibilitando utilizar o que foi passado no contexto;
 
 
 
@@ -15,6 +27,12 @@ TimeStamp:
 *TypeScript:*
 Interface:
 - Define elements properties;
+
+Type ReactNode:
+- Tipo exportado do react que aceita qualquer componente HTML;
+
+Omit< 'Tipo já criado', 'parametro' | 'parametro'>:
+- A function Omit repete um tipo criado para a criação de uma tipagem nova, e recebe como parametro os categorias que queremos omitir da tipagem pai;
 
 *CSS*
 Placeholder:
