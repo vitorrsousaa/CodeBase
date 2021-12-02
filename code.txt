@@ -47,3 +47,10 @@ git push -u origin main
 *TERMINAL*
 cd ..
 - Returning one past
+
+*LIFE*
+CMS
+- Painel de administração para cadastrar as aplicações e servir os dados para a aplicação. Ex: WordPress;
+
+APLICAÇÕES SERVELESS
+- Cada rota da aplicação é rodada de forma isolada. Uma máquina virtual é criar para rodar uma rota da aplicação, e depois é encerrada;
