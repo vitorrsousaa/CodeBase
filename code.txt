@@ -25,6 +25,14 @@ setTransactions([
 ])
 - Estamos acrescentando uma transaction, junto com a lista de transactions existente
 
+*NEXT*
+Criando rotas de api:
+- Para criar as rotas de api, criamos uma pasta chamada api dentro de pages, e vamos importar por padrão NextApiRequest e NextApiResponse. Criamos uma função aqui dentro que recebe response e request como parametro, e o return da function vai ser response.json('o que eu quero retornar')
+
+Criando rotas dinamicas:
+- Para criar as rotas dinamicas, vamos criar uma pasta com o que eu quero retornar, e o arquivo dentro desta página vai possuir ['parametro']index.tsx. E para acessar este parametro, vamos utilizar o request.query;
+- Exemplo: api>users>[id]index.tsx
+
 
 
 *JavaScript:*
