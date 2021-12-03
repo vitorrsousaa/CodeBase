@@ -54,9 +54,6 @@ Use this properties:
 git push origin --delete nomedabranch:
 - Delete a remote branch;
 
-git branch -D nome da branch:
-- Delete a local branch;
-
 git init:
 - Start git in the terminal;
 
@@ -66,13 +63,46 @@ git add .
 git commit -m "text" 
 - Commit the files;
 
-git remote add origin https://github.com/vitorrsousaa/ClothingStore.git
-git branch -M main
+git branch nomedabranch':
+- Cria uma nova branch;
+
+git checkout 'nomedabranch':
+- Acessa outra branch criada;
+
+git branch:
+- Exibe todas as branch criadas;
+
+git log:
+- Exibe todos os commit's realizados;
+
+git merge 'nomedabranchMergeada':
+- Realiza um merge da branch digitada, para a branch que estamos trabalhando;
+- Caso estamos trabalhando na dev, e quero fazer o merge para a master. Primeiro acessamos o master no git, e depois usamos o comando passando a branch dev como parametro;
+
+git branch -D nome da branch:
+- Delete a local branch;
+
+git clone 'urlDoRepositório:
+- Cria um clone local do repositório;
+
+git remote -v:
+- Exibe os repositórios remotos criados;
+
+git remote add origin https://github.com/vitorrsousaa/ClothingStore.git:
+- Cria um repositório remoto denominado origin, que encaminha para a url descrita;
+
 git push -u origin main
+- Envia os arquivos contidos no commit para o repositório remoto denomiado origin, para dentro da branch main
+
+git pull 'branch1' 'branch2':
+- Verifica as alterações que foram feitas na branch1, e faz o download mesclando com a branch2;
 
 *TERMINAL*
 cd ..
 - Returning one past
+
+mkdir:
+- Cria uma pasta
 
 *LIFE*
 CMS
